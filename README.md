@@ -10,15 +10,8 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run the JSON server command in a new terminal window
 ```
-npm run build
+npm run json
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+(http://localhost:3500/users should then render the users from the data.js file. It will store new users, edit and deletion of them as well until stopped.)
